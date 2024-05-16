@@ -4,13 +4,15 @@
 
 # Session Data files
 .RData
-.RDataTmp
 
 # User-specific files
 .Ruserdata
 
 # Example code in package build process
 *-Ex.R
+
+# File meta data on a Mac
+.DS_Store
 
 # Output files from R CMD build
 /*.tar.gz
@@ -39,11 +41,4 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+answer-key.R
